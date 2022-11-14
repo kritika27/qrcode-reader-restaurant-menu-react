@@ -19,8 +19,9 @@ body {
   width: 50vw;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
+  height:90vh;
 
 }
 
@@ -33,7 +34,7 @@ body {
 }
 
 .btn {
-  margin: 6vh;
+  margin: 3vh;
   color: #fff;
   background-color: #444;
   border: none;
@@ -44,4 +45,32 @@ body {
   letter-spacing: 0.3vh;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 1.1rem;
+}
+
+.toggle{
+  color: #fff;
+  border:none;
+  background-color: #3aafa9;
+  cursor:pointer;
+  padding:7px;
+}
+
+.disabled{
+  padding:7px;
+    border:none;
+    background-color: #cccccc;
+    color: #666666;
+}
+ul{
+  list-style-type: none;
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+li{
+  margin:5px;
+}
+nav{
+  width:50vw;
 }
