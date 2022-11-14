@@ -13,16 +13,17 @@ const fileDownloadHandler = async (pictureUrl) => {
     });
   };
 
-const Qr = () => {
+const Qr = ({toggle}) => {
     return (
         <div className="App">
 
             <img
                 style={{ backgroundColor: "red", color: "blue" }}
                 src={url}
-                  alt="hello"
+                  alt="varieties of food on the plates on the table"
             />
-            <button className="btn" onClick={()=>fileDownloadHandler(url)}>Download</button>
+            {!toggle && <button className="btn" onClick={()=>fileDownloadHandler(url)}>Download</button>}
+            {toggle && <button className="btn" onClick={()=>fileDownloadHandler(url)}>Herunterladen</button>}
 
         </div>
     );
