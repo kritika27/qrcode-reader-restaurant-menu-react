@@ -1,9 +1,10 @@
 import React from 'react'
 import "./App.css"
-const Title = () => {
+const Title = ({toggle}) => {
   return (
     <div className="title">
-        <h4>SCAN FOR MENU</h4>
+        {!toggle && <h4>Scan for Menu</h4>}
+       {toggle && <h4> Scannen Sie die Speisekarte</h4>}
         </div>
   )
 }
