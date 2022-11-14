@@ -20,7 +20,7 @@ const Qr = ({toggle}) => {
             <img
                 style={{ backgroundColor: "red", color: "blue" }}
                 src={url}
-                  alt="varieties of food on the plates on the table"
+                  alt="QR code of Restaurant's Menu"
             />
             {!toggle && <button className="btn" onClick={()=>fileDownloadHandler(url)}>Download</button>}
             {toggle && <button className="btn" onClick={()=>fileDownloadHandler(url)}>Herunterladen</button>}
