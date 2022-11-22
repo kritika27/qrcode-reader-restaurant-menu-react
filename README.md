@@ -7,8 +7,14 @@ It routes to a dummy page on scanning the code for now.The Menu site build is in
 
 ## Screenshots
 
+### English:
+
 <img width="960" alt="menu_card" src="https://user-images.githubusercontent.com/4997491/203245224-bb095a15-0ea1-4844-a23b-726dbe822ad5.PNG">
 
+
+### German:
+
+<img width="960" alt="menu_card_german" src="https://user-images.githubusercontent.com/4997491/203246151-036e716e-71f1-4e36-8e1d-63188498c3c4.PNG">
 
 ## Installation
 
